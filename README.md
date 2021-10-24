@@ -21,6 +21,10 @@ npoints = 2500
 num_workers = 4
 only_test = True
 rand_seed = 123
+```  
+Then execute the following command for model training  
+```
+python train_cls.py
 ```
 ### Segmentation  
 First, you need to configure the following items in train_seg.py  
@@ -38,6 +42,11 @@ num_workers = 4
 only_test = False
 rand_seed = 123
 class_choice = ["Guitar"]  # segmentation task need  specify one class, should be a list, for example ["class1"]
+```
+```  
+Then execute the following command for model training  
+```
+python train_seg.py
 ```
 ## Show Segmentation Result  
 ## Segmentation Results  
