@@ -1,4 +1,6 @@
 # pointnet
+## Dataset
+Download dataset from https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_segmentation_benchmark_v0.zip
 ## Train  
 Before training classification or segmentation tasks, you first need to start visdom with the following command:  
 ```
