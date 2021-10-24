@@ -1,6 +1,6 @@
 # pointnet
 ## Train  
-Before training classification or segmentation tasks, you first need to start visdom with the following command:
+Before training classification or segmentation tasks, you first need to start visdom with the following command:  
     python -m visdom.server
 ### Classification  
 ### Segmentation  
