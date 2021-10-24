@@ -1,6 +1,7 @@
 # pointnet
 ## Train Classification
 ## Train Segmentation
+## Show Segmentation Result  
 ## Segmentation Results  
 <p float="left">
   <img src="test_seg_imgs/guitar1.png" width="200" height="200"/>
