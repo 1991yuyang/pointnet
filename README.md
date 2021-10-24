@@ -48,7 +48,14 @@ Then execute the following command for model training
 ```
 python train_seg.py
 ```
-## Show Segmentation Result  
+## Show Segmentation Result 
+```
+root = r"./shapenetcore_partanno_segmentation_benchmark_v0"
+sample_index = 0
+class_choice = ["Airplane"]
+npoints = 2500
+rand_seed = 123
+```
 ## Segmentation Results  
 <p float="left">
   <img src="test_seg_imgs/guitar1.png" width="200" height="200"/>
