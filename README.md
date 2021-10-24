@@ -2,4 +2,4 @@
 ## Train Classification
 ## Train Segmentation
 ## Segmentation Results  
-![image](public/image/20190528145810708.png)
+![image](test_seg_imgs/guitar1.png)
