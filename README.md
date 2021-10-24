@@ -43,7 +43,6 @@ only_test = False
 rand_seed = 123
 class_choice = ["Guitar"]  # segmentation task need  specify one class, should be a list, for example ["class1"]
 ```
-```  
 Then execute the following command for model training  
 ```
 python train_seg.py
