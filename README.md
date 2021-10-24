@@ -56,6 +56,10 @@ sample_index = 0
 class_choice = ["Airplane"]
 npoints = 2500
 rand_seed = 123
+```  
+Then execute the following command  
+```
+python show_seg.py
 ```
 ## Segmentation Results  
 <p float="left">
