@@ -7,7 +7,25 @@ Before training classification or segmentation tasks, you first need to start vi
 python -m visdom.server
 ```
 ### Classification 
-First, you need to configure the following items in train_cls.py
+First, you need to configure the following items in train_cls.py  
+```
+root = r"E:\point_cloud_data\shapenetcore_partanno_segmentation_benchmark_v0"
+
+epoch = 100
+train_batch_size = 16
+test_batch_size = 64
+lr = 0.001
+lr_de_rate = 0.5
+lr_de_epoch = [20, 30, 50, 70]
+print_loss_accu_every_step = 100
+softmax_op = nn.Softmax(dim=1)
+input_dim = 3
+is_bias = False
+npoints = 2500
+num_workers = 4
+only_test = True
+rand_seed = 123
+```
 ### Segmentation  
 ## Show Segmentation Result  
 ## Segmentation Results  
