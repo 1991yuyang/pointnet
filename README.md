@@ -23,6 +23,7 @@ only_test = True
 rand_seed = 123
 ```
 ### Segmentation  
+First, you need to configure the following items in train_seg.py
 ## Show Segmentation Result  
 ## Segmentation Results  
 <p float="left">
