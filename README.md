@@ -49,6 +49,7 @@ Then execute the following command for model training
 python train_seg.py
 ```
 ## Show Segmentation Result 
+First, you need to specify the following items in the file utils/show_seg.py
 ```
 root = r"./shapenetcore_partanno_segmentation_benchmark_v0"
 sample_index = 0
