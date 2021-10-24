@@ -23,7 +23,22 @@ only_test = True
 rand_seed = 123
 ```
 ### Segmentation  
-First, you need to configure the following items in train_seg.py
+First, you need to configure the following items in train_seg.py  
+```
+root = r"./shapenetcore_partanno_segmentation_benchmark_v0"
+epoch = 200
+train_batch_size = 4
+test_batch_size = 32
+lr = 0.01
+lr_de_rate = 0.5
+lr_de_epoch = [20, 40, 60, 80, 100, 120, 140, 160]
+print_loss_iou_every_step = 10
+npoints = 2500
+num_workers = 4
+only_test = False
+rand_seed = 123
+class_choice = ["Guitar"]  # segmentation task need  specify one class, should be a list, for example ["class1"]
+```
 ## Show Segmentation Result  
 ## Segmentation Results  
 <p float="left">
