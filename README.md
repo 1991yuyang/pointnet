@@ -1,6 +1,7 @@
 # pointnet
-## Train Classification
-## Train Segmentation
+## Train
+### Classification  
+### Segmentation  
 ## Show Segmentation Result  
 ## Segmentation Results  
 <p float="left">
