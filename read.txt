@@ -1,0 +1,1 @@
+misc/num_seg_classes.txt中指定了在分割任务中的每个物体类别的分割类别数目
