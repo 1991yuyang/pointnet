@@ -6,7 +6,8 @@ Before training classification or segmentation tasks, you first need to start vi
 ```
 python -m visdom.server
 ```
-### Classification  
+### Classification 
+First, you need to configure the following items in train_cls.py
 ### Segmentation  
 ## Show Segmentation Result  
 ## Segmentation Results  
